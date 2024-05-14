@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register Page</title>
+    <link rel="stylesheet" href="./JoinAndLogin.css">
+</head>
+<body>
+      <!-- Video Container -->
+      <div id="video-container">
+        <video autoplay muted loop>
+            <source src="./assets/videos/learn6.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="login-btn" class="active">Login</button>
+                <button id="register-btn">Register</button>
+            </div>
+            <form id="login-form" class="form">
+                <h2>Login</h2>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <form id="register-form" class="form hidden">
+                <h2>Register</h2>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./JoinAndLogin.js"></script>
+</body>
+</html>
